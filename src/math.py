@@ -9,7 +9,7 @@ def sub(a, b):
 def sum(*args):
     total = 0
     for arg in args:
-        total = add(arg, arg)
+        total = add(total, arg)
     return total
 
 
