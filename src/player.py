@@ -8,6 +8,3 @@ def number_conversion(number):
 def team_conversion():
     numbers = ["30", "24", "11"]
     return ", ".join([number_conversion(number) for number in numbers])
-
-
-print(team_conversion())
