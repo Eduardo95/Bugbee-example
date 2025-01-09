@@ -1,7 +1,7 @@
 def number_conversion(number):
-    dict = {"30": "Stephen",
-            "24": "Kobe",
-            "11": "Ming"}
+    dict = {"30": ["Stephen", "Curry"],
+            "24": ["Kobe", "Bryant"],
+            "11": ["Ming", "Yao"]}
     return dict[number]
 
 
